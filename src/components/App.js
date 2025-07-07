@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       {isLoggedIn ? (
-        <h2>Welcome! You are logged in.</h2>
+        <h1>Welcome! You are logged in.</h1>
       ) : (
         <LoginForm onLogin={handleLogin} />
       )}
